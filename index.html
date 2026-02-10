@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termoplastik Uygulama Rehberi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="badge">www.termoplastikuygulamarehberi.info</p>
+        <h1>Termoplastik Uygulama Rehberi</h1>
+        <p>
+          Termoplastik üretim, işleme ve uygulama süreçlerinde ortaya çıkan sorunları
+          hızlıca bulun, çözümleri karşılaştırın ve operasyon verimliliğinizi artırın.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls" aria-label="Filtreler">
+        <label class="field">
+          Problem ara
+          <input id="searchInput" type="search" placeholder="Örn. çarpılma, kırılma, yüzey hatası" />
+        </label>
+
+        <label class="field">
+          Uygulama alanı
+          <select id="categoryFilter">
+            <option value="all">Tümü</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="content-layout">
+        <div>
+          <h2>Yaygın Problemler ve Önerilen Çözümler</h2>
+          <div id="resultCount" class="result-count"></div>
+          <div id="cards" class="grid" role="list"></div>
+        </div>
+
+        <aside class="preview" aria-label="Ön izleme paneli">
+          <h3>Ön İzleme</h3>
+          <p class="preview-note">Listeden bir kayıt seçtiğinizde detaylar burada görünür.</p>
+          <article id="previewCard" class="card preview-card"></article>
+        </aside>
+      </section>
+
+      <section class="cta">
+        <h3>Yeni vaka eklemek ister misiniz?</h3>
+        <p>
+          Ekibinizde sık karşılaşılan bir problemi kayıt altına alarak rehberi birlikte
+          geliştirebiliriz.
+        </p>
+        <a class="button" href="mailto:info@termoplastikuygulamarehberi.info">İletişime Geç</a>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
