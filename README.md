@@ -1,0 +1,2 @@
+# termoplastikuygulamarehberi
+Termoplastiklerin uygulama alanlarında karşılaşılan sorunların ve çözüm yöntemlerinin platformu
